@@ -11,11 +11,12 @@ html {
 #title {
     margin-top: 50px;
     font-size: 70px !important;
+    font-family: 'Montserrat', serif;
 
 }
 
 .navbar {
-    background-color: #444 !important;
+    background-color: #052C6E !important;
     border: 0 !important;
 }
 
@@ -25,7 +26,8 @@ html {
 
 .navbar li a {
     text-align: right !important;
-    color: white !important;
+    color: #FF6A00 !important;
+    font-family: 'Montserrat', serif;
 }
 
 .navbar li a:hover {
@@ -33,7 +35,7 @@ html {
 }
 
 .active a{
-    background-color: #b4b4b4 !important;
+    background-color: #1049A9 !important;
     color: black !important;
 }
 
@@ -66,7 +68,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background-image: url();
+    background-image: url(images/intro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
