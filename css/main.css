@@ -12,7 +12,39 @@ html {
     margin-top: 50px;
     font-size: 70px !important;
     font-family: 'Montserrat', serif;
+}
 
+.btn,
+h1 {
+    font-family: 'Montserrat', serif;
+}
+
+h1{
+  color: #FF6A00;
+}
+
+h2{
+  font-size: 18px;
+}
+
+section .container{
+  margin-top: -100px !important;
+}
+.btn {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+}
+
+.btn:hover {
+    font-weight: bold !important;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border-color: black;
+    border-width: 3px;
+    color: black;
 }
 
 .navbar {
@@ -34,12 +66,12 @@ html {
     font-weight: bold;
 }
 
-.active a{
+.active a {
     background-color: #1049A9 !important;
     color: black !important;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     border: 0 !important;
 }
 
@@ -56,14 +88,6 @@ html {
 }
 
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
-/*
-#page-top {
-    background: url(images/pen-idea-bulb-paper.jpg) no-repeat -9999px -9999px;
-}
-*/
 .intro-section {
     height: 100%;
     padding-top: 150px;
@@ -86,48 +110,56 @@ of those sections to manage the look and feel of the site. */
     text-align: left;
 }
 
-#techThing{
+#about .fa{
+  font-size: 100px !important;
+  color: #437DD4;
+}
+
+#techThing {
     width: 90%;
     height: 90%;
 }
 
 .bounce-up .subject {
-  opacity: 0;
-  -moz-transition: all 700ms ease-out;
-  -webkit-transition: all 700ms ease-out;
-  -o-transition: all 700ms ease-out;
-  transition: all 700ms ease-out;
-  -moz-transform: translate3d(0px, 200px, 0px);
-  -webkit-transform: translate3d(0px, 200px, 0px);
-  -o-transform: translate(0px, 200px);
-  -ms-transform: translate(0px, 200px);
-  transform: translate3d(0px, 200, 0px);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
+    opacity: 0;
+    -moz-transition: all 700ms ease-out;
+    -webkit-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;
+    -moz-transform: translate3d(0px, 200px, 0px);
+    -webkit-transform: translate3d(0px, 200px, 0px);
+    -o-transform: translate(0px, 200px);
+    -ms-transform: translate(0px, 200px);
+    transform: translate3d(0px, 200, 0px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .bounce-up.in-view .subject {
-  opacity: 1;
-  -moz-transform: translate3d(0px, 0px, 0px);
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-} 
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
 
 .services-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #052F6D;
 }
 
 .results-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: white;
+}
+
+.testimonies-section{
+  height: 100%;
 }
 
 .contact-section {
@@ -136,6 +168,7 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #fff;
 }
+
 
 .personalLink {
     color: blue;
@@ -146,15 +179,19 @@ a:hover {
 }
 
 
-
 /*Results*/
 
 
 /*-------------------------------*/
-/*      Code snippet by          */
-/*      @maridlcrmn              */
-/*-------------------------------*/
 
+
+/*      Code snippet by          */
+
+
+/*      @maridlcrmn              */
+
+
+/*-------------------------------*/
 
 section {
     padding-top: 100px;
@@ -162,41 +199,52 @@ section {
 }
 
 .quote {
-    color: rgba(0,0,0,.1);
+    color: rgba(0, 0, 0, .1);
     text-align: center;
     margin-bottom: 30px;
 }
 
+
 /*-------------------------------*/
+
+
 /*    Carousel Fade Transition   */
+
+
 /*-------------------------------*/
 
 #fade-quote-carousel.carousel {
-  padding-bottom: 60px;
+    padding-bottom: 60px;
 }
+
 #fade-quote-carousel.carousel .carousel-inner .item {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
 }
+
 #fade-quote-carousel.carousel .carousel-inner .active {
-  opacity: 1;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
 }
+
 #fade-quote-carousel.carousel .carousel-indicators {
-  bottom: 10px;
+    bottom: 10px;
 }
+
 #fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
-  border: none;
+    background-color: #e84a64;
+    border: none;
 }
+
 #fade-quote-carousel blockquote {
     text-align: center;
     border: none;
 }
+
 #fade-quote-carousel .profile-circle {
     width: 100px;
     height: 100px;
