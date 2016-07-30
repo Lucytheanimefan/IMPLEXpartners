@@ -13,10 +13,11 @@ hr {
     border: none;
     height: 5px;
     background-color: #5387BD;
+    margin-bottom: 20px !important;
 }
 
 #title {
-    margin-top: 50px;
+    margin-top: 20%;
     font-size: 70px !important;
     font-family: 'Montserrat', serif;
 }
@@ -33,12 +34,13 @@ h4 span {
 
 h4 {
     color: white;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 #teamDescrip {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 h2 {
@@ -52,9 +54,9 @@ section .container {
 .btn {
     background-color: Transparent;
     background-repeat: no-repeat;
-    border-color: white;
+    border-color: black;
     border-width: 3px;
-    color: white;
+    color: black;
 }
 
 .btn:hover {
@@ -72,9 +74,10 @@ section .container {
 }
 
 .team-button {
+    margin-top: 10px;
     background-color: Transparent;
     background-repeat: no-repeat;
-    border: none !important;
+    border-color: #5387BD !important;
     color: #5387BD !important;
     font-size: 18px;
 }
@@ -140,10 +143,10 @@ section .container {
 
 .about-section {
     /*height: 100%;*/
+    background: #6A94D4;
     padding-top: 150px;
     text-align: center;
-    background: white;
-    color: #444;
+    color: white;
 }
 
 #about p {
@@ -152,7 +155,7 @@ section .container {
 
 #about .fa {
     font-size: 100px !important;
-    color: #437DD4;
+    color: #FF6400;
 }
 
 #techThing {
@@ -186,9 +189,15 @@ section .container {
 }
 
 .services-section {
-    /*height: 100%;*/
+    height: 100%;
+    background-image: url(images/services.jpeg);
+    background-size: 100%;
     padding-top: 150px;
     text-align: center;
+}
+
+#services h1 {
+    color: #052F6D;
 }
 
 #services .row {
