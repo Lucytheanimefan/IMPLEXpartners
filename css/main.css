@@ -1,11 +1,11 @@
 body {
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 html {
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 #title {
@@ -89,7 +89,7 @@ section .container{
 
 
 .intro-section {
-    height: 100%;
+    /*height: 100%;*/
     padding-top: 150px;
     text-align: center;
     background-image: url(images/intro.jpg);
@@ -99,7 +99,7 @@ section .container{
 }
 
 .about-section {
-    height: 100%;
+    /*height: 100%;*/
     padding-top: 150px;
     text-align: center;
     background: white;
@@ -146,24 +146,30 @@ section .container{
 }
 
 .services-section {
-    height: 100%;
+    /*height: 100%;*/
     padding-top: 150px;
     text-align: center;
-    background: #052F6D;
+    
+}
+
+#services .row{
+  margin-bottom: 20px !important;
+  line-height: 2.5;
+  font-family: 'Montserrat', serif;
 }
 
 .results-section {
-    height: 100%;
+    /*height: 100%;*/
     padding-top: 150px;
     text-align: center;
 }
 
 .testimonies-section{
-  height: 100%;
+  /*height: 100%;*/
 }
 
 .contact-section {
-    height: 100%;
+    /*height: 100%;*/
     padding-top: 150px;
     text-align: center;
     background: #fff;
