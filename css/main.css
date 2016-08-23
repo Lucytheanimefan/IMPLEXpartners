@@ -70,7 +70,7 @@ section .container {
 
 #team {
     text-align: center;
-    margin-top: 50px !important;
+    /*margin-top: 50px !important;*/
 }
 
 .team-button {
