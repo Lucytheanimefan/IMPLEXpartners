@@ -68,15 +68,16 @@ section .container {
     color: black;
 }
 
-#team {
+#team .row{
     text-align: center;
-    /*margin-top: 50px !important;*/
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .team-button {
     margin-top: 10px;
-    background-color: Transparent;
-    background-repeat: no-repeat;
+    /* background-color: Transparent; 
+    background-repeat: no-repeat; */
     border-color: #5387BD !important;
     color: #5387BD !important;
     font-size: 18px;
@@ -89,6 +90,7 @@ section .container {
 
 .team-button:hover {
     font-weight: bold;
+    color: #FF6A00 !important;  
 }
 
 .navbar {
@@ -210,6 +212,23 @@ section .container {
     /*height: 100%;*/
     padding-top: 150px;
     text-align: center;
+    background:  #052F6D;
+    color: white;
+}
+
+.results-page{
+  padding-top: 150px;
+  text-align: center;
+  background: #5387BD;
+}
+
+.results-page h2{
+  text-align: center;
+  color: #FF6A00;
+}
+
+.results-page h1{
+  color: white;
 }
 
 .testimonies-section {
