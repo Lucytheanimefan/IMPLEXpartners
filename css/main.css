@@ -216,6 +216,15 @@ section .container {
     color: white;
 }
 
+#results h2 a{
+  color: white;
+}
+
+#results h2 a:hover{
+  color:lightblue;
+}
+
+
 .results-page{
   padding-top: 150px;
   text-align: center;
@@ -233,6 +242,10 @@ section .container {
 
 .testimonies-section {
     /*height: 100%;*/
+}
+
+#testimonies h1{
+  text-align: center;
 }
 
 .contact-section {
