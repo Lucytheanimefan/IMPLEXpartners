@@ -1,14 +1,11 @@
-#results{
-	background-color: none !important;
-}
 
 a{
 	color: #2980b9 !important;
 }
-body {
+body,#results {
     /*height: 10000px;*/
     font-family: "Lato";
-    background-color: #2980b9;
+    background-color: #02122b;
     padding: 20px 30px;
     margin: 0px;
 }
@@ -27,7 +24,7 @@ h4 {
     padding: 0px;
     font-family: 'Montserrat', serif;
     overflow: hidden;
-    background-color: black;
+    background-color: #02122b;
 }
 
 .caption-style-1 li {
@@ -66,7 +63,7 @@ h4 {
 .caption-style-1 .blur {
     background-color: rgba(0, 0, 0, 0.65);
     height: 300px;
-    width: 400px;
+    width: 380px;
     z-index: 5;
     position: absolute;
 }
@@ -78,18 +75,20 @@ h4 {
 }
 
 .caption-style-1 .caption-text p{
-	margin-top: 0px;
+	margin-top: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
 	font-weight: lighter;
 	font-family: arial;
+	text-align: justify;
 }
 
 .caption-style-1 .caption-text {
     z-index: 10;
     color: #fff;
     position: absolute;
-    width: 400px;
+    width: 380px;
     height: 300px;
-    text-align: center;
     top: 100px;
 }
 
@@ -98,10 +97,9 @@ h4 {
 
 ul.nav-menu {
     padding: 0px;
-    margin: 0px;
+    margin: 80px auto;
     list-style-type: none;
     width: 490px;
-    margin: 60px auto;
 }
 
 ul.nav-menu li {
@@ -112,15 +110,23 @@ ul.nav-menu li {
 }
 
 ul.nav-menu li a {
-    color: #eee;
+	font-family: 'Montserrat', serif;
+    color: #6A94D4 !important;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: lighter;
 }
 
-ul.nav-menu li a:hover,
-ul.nav-menu li a.active {
-    color: #2c3e50;
+
+ul.nav-menu li a:hover{
+	font-weight: bolder;
 }
+
+ul.nav-menu li a.active {
+    color: #FF6400 !important;
+    font-weight: bolder;
+}
+
 
 
 /** content **/
